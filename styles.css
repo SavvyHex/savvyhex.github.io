@@ -6,14 +6,41 @@
     font-style: normal;
 }
 
-body {
-    background-color: rgb(145, 82, 40);
-    color: azure;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
-header {
-    background-color: rgb(131, 68, 26);
-    text-align: center;
+body {
     font-family: "alagard";
-    color: rgb(78, 31, 0);
+    background-color: rgb(109, 23, 23);
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(10, 10, 10);
+    display: block;
+}
+
+.inner_header {
+    width: 75%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.username {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.username h1{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
 }
