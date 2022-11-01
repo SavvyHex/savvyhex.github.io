@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'alagard';
-    src: url('fonts/alagard-webfont.woff2') format('woff2'),
-         url('fonts/alagard-webfont.woff') format('woff');
+    font-family: 'electrolize';
+    src: url('electrolize-regular-webfont.woff2') format('woff2'),
+         url('electrolize-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
