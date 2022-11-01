@@ -1,4 +1,19 @@
+@font-face {
+    font-family: 'alagard';
+    src: url('fonts/alagard-webfont.woff2') format('woff2'),
+         url('fonts/alagard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: rgb(145, 82, 40);
     color: azure;
+}
+
+header {
+    background-color: rgb(131, 68, 26);
+    text-align: center;
+    font-family: "alagard";
+    color: rgb(78, 31, 0);
 }
