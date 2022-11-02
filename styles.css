@@ -41,12 +41,13 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 25px;
-    font-size: 24px;
-    height: 300px;
+    padding-bottom: 75px;
+    font-size: 28px;
+    height: auto;
 }
 
 .main_text h1 {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .main_text p {
@@ -55,10 +56,11 @@ body {
     margin-right: 5%;
 }
 
-.about_me {
-    background-color: rgb(109, 23, 23);
+.main_text ul {
+    font-size: 24px;
+    margin-left: 8%;
 }
 
-.interests {
-    background-color: rgb(23, 32, 109);
+.about_me {
+    background-color: rgb(109, 23, 23);
 }
