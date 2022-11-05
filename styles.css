@@ -48,16 +48,16 @@ body {
 
 .about_me .main_text {
     color: rgb(7, 7, 49);
-    margin-left: 3%;
-    margin-right: 68%;
-    padding-top: 65px;
-    padding-bottom: 75px;
-    font-size: 28px;
+    margin-left: 10%;
+    margin-right: 55%;
+    padding-top: 6%;
+    padding-bottom: 7%;
+    font-size: 2vw;
     height: auto;
 }
 
 .main_text h1 {
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 .main_text p {
@@ -67,7 +67,7 @@ body {
 }
 
 .main_text ul {
-    font-size: 24px;
+    font-size: 2vw;
     margin-left: 8%;
 }
 
@@ -75,6 +75,6 @@ body {
     background-image: url("images/scroll.png");
     background-size: contain;
     margin-top: 8%;
-    margin-left: 15%;
+    margin-left: 5%;
     background-repeat: no-repeat;
 }
