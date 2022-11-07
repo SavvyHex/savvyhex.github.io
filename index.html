@@ -8,40 +8,45 @@
     <link rel="icon" type="image/x-icon" href="/images/logo.png">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="header">
-        <div class="inner_header">
-            <div class="username">
-                <h1>SavvyHex</h1>
+    <button id="prev-btn">
+        <i class="fas fa-arrow-circle-left"></i>
+    </button>
+
+    <div id="book" class="book">
+
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <h1>Saketh Sunil Pai</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h1>Back 1</h1>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="about_me">
-        <div class="main_text">
-            <h1>Hello! My name is Saketh Pai.</h1>
-            <p>
-                I'm a self-taught programmer who works on a wide array of projects, ranging from small arcade games to command line tools. As of right now, 
-                I am a student in Bengaluru. As my projects suggest, I am a very fickle-minded person, but when I take a project up, I will not rest until 
-                I complete it.
-            </p>
-            <br>
-            <h1>What I'm Into (besides programming, of course)</h1>
-            <p>
-                My main pastimes are reading, writing short stories and playing card games. My favourite books include :
-            </p>
-                <ul>
-                    <li>The Yellow King</li>
-                    <li>The Harry Potter Series</li>
-                    <li>The "A Song of Ice and Fire" Serires</li>
-                    <li>Almost Anything by Lovecraft</li>
-                    <li>Completely Anything by Rick Riordan</li>
-                </ul>
-            <p>
-                I also like to play retro games, such as the OG doom games, Flappy Bird, Mario and Pokemon (mainly from gen 3). The idea of having a whole interactive 
-                world inside something as portable as a smartphone had always intrigued me and was what ignited my interest in programming.
-            </p>
+
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h1>Front 2</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <h1>Back 2</h1>
+                </div>
+            </div>
         </div>
+
     </div>
+
+    <button id="next-btn">
+        <i class="fas fa-arrow-circle-right"></i>
+    </button>
 </body>
 </html>
